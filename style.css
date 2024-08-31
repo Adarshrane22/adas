@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    background-color: #23149b;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    margin-bottom: 10px;
+}
+
+.hero .btn {
+    background-color: white;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.card .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
+
+.product-detail-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.product-detail-container img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.product-info {
+    max-width: 400px;
+}
+
+.cart-container ul {
+    list-style: none;
+}
+
+.cart-container ul li {
+    margin-bottom: 10px;
+}
+
+.adarsh h1{
+    display: flexbox;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
